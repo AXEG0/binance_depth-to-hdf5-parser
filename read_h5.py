@@ -30,6 +30,6 @@ def load_all_data_from_h5(date: str) -> {str: {str: [[float]]}}:
     return all_data
 
 
-date = '2023-05-14'
+date = '2023-05-21'
 all_data = load_all_data_from_h5(date)
 print(all_data)
